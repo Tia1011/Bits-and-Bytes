@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Select Payment Method</h2>
+
+<div>
+    <h3>Card Payment (Stripe)</h3>
+    <form id="stripeForm">
+        <input type="hidden" id="stripeToken" name="stripeToken" />
+        <input type="hidden" id="amount" name="amount" value="1200" /> <!-- Amount in cents, adjust as needed -->
+        <input type="text" name="cardNumber" placeholder="Card Number" />
+        <input type="text" name="expiryMonth" placeholder="MM" />
+        <input type="text" name="expiryYear" placeholder="YYYY" />
+        <input type="text" name="cvc" placeholder="CVC" />
+
+        <script src="https://js.stripe.com/v3/"></script>
+        <button type="button" id="stripeSubmit">Pay with Card</button>
+    </form>
+</div>
+
+<div>
+    <h3>PayPal Payment</h3>
+    <form action="@Url.Action("PayPalPayment", "Payment")" method="post">
+        <!-- Form fields for PayPal payment -->
+        <!-- Add form fields for PayPal details -->
+        <button type="submit">Pay with PayPal</button>
+    </form>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var stripeSubmitBtn = document.getElementById('stripeSubmit');
+        stripeSubmitBtn.addEventListener('click', function (event) {
+            event.preventDefault();
+            stripe.createToken('card').then(function (result) {
+                if (result.error) {
+                    // Log the error to the console
+                    console.error(result.error.message);
+                } else {
+                    // Log the token ID to the console
+                    console.log(result.token.id);
+                    // Send the token to your server
+                    document.getElementById('stripeToken').value = result.token.id;
+                    // Log a message before submitting the form
+                    console.log('Submitting the form');
+                    document.getElementById('stripeForm').submit();
+                }
+            }).catch(function (error) {
+                // Log any unexpected errors
+                console.error('An unexpected error occurred:', error);
+            });
+        });
+    });
+</script>

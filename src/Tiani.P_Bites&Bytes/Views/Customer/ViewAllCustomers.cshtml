@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Tiani.P_Bites_Bytes.Models.Customer>
+@{
+    ViewBag.Title = "ViewAllCustomers";
+}
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find customers by Email Address : @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<h2>View All Customers</h2>
+
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(customers => customers.EmailAddress)</th>
+        <th>@Html.DisplayNameFor(customers => customers.Firstname)</th>
+        <th>@Html.DisplayNameFor(customers => customers.Lastname)</th>
+    </tr>
+
+    @foreach (var customer in ViewBag.Customers)
+    {
+        <tr>
+            <td>@customer.EmailAddress</td>
+            <td>@customer.Firstname</td>
+            <td>@customer.Lastname</td>
+            <td>
+                @Html.ActionLink("Edit", "EditCustomer", new { email = customer.EmailAddress })|
+                @Html.ActionLink("Customer Details", "CustomerDetails", new { email = customer.EmailAddress })
+       
+            </td>
+        </tr>
+    }
+</table>

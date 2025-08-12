@@ -1,0 +1,51 @@
+﻿
+@model Tiani.P_Bites_Bytes.Models.ViewModels.CustomerViewModel
+
+
+@{
+    ViewBag.Title = "CustomerLogin";
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title.</h2>
+    <div class="row">
+        <div class="col-md-8">
+            <section id="loginForm">
+
+                @using (Html.BeginForm("CustomerLogin", "Customer", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="row">
+                        @Html.LabelFor(m => m.EmailAddress, new { @class = "col-md-2 col-form-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.EmailAddress, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.EmailAddress, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="offset-md-2 col-md-10">
+                            <input type="submit" value="Find Customer" class="btn btn-outline-dark" />
+                        </div>
+                    </div>
+                }
+
+
+            </section>
+        </div>
+
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,107 @@
+﻿@model Tiani.P_Bites_Bytes.Models.Customer
+
+@{
+    ViewBag.Title = "Customer Details";
+}
+
+@if (Model != null)
+{
+    <h2>Customer Details</h2>
+
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+
+            <dt>
+                @Html.DisplayNameFor(model => model.EmailAddress)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.EmailAddress)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Firstname)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Firstname)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Lastname)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Lastname)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Address1)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Address1)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Address2)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Address2)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Postcode)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Postcode)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DiscountStatusId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DiscountStatusId)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DateOfBirth)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DateRegistered)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DateRegistered)
+            </dd>
+
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "EditCustomer", new { email = Model.EmailAddress }) |
+    </p>
+}
+else
+{
+<div>
+    <p>@ViewBag.Error</p>
+</div>
+}

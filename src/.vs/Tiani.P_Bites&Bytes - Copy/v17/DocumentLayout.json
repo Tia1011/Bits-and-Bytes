@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Y2S2\\Software Development - Data Structures\\Tiani.P_Bites\u0026Bytes - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Y2S2\\Software Development - Data Structures\\Tiani.P_Bites\u0026Bytes - Copy\\Tiani.P_Bites\u0026Bytes\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tiani.P_Bites\u0026Bytes\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Y2S2\\Software Development - Data Structures\\Tiani.P_Bites\u0026Bytes - Copy\\Tiani.P_Bites\u0026Bytes\\Controllers\\CustomerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tiani.P_Bites\u0026Bytes\\Controllers\\CustomerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Y2S2\\Software Development - Data Structures\\Tiani.P_Bites\u0026Bytes - Copy\\Tiani.P_Bites\u0026Bytes\\Models\\Basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tiani.P_Bites\u0026Bytes\\Models\\Basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Basket.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Y2S2\\Software Development - Data Structures\\Tiani.P_Bites\u0026Bytes - Copy\\Tiani.P_Bites\u0026Bytes\\Models\\Basket.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\Basket.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Y2S2\\Software Development - Data Structures\\Tiani.P_Bites\u0026Bytes - Copy\\Tiani.P_Bites\u0026Bytes\\Models\\Basket.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\Basket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T07:35:32.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Y2S2\\Software Development - Data Structures\\Tiani.P_Bites\u0026Bytes - Copy\\Tiani.P_Bites\u0026Bytes\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Y2S2\\Software Development - Data Structures\\Tiani.P_Bites\u0026Bytes - Copy\\Tiani.P_Bites\u0026Bytes\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T07:35:28.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Y2S2\\Software Development - Data Structures\\Tiani.P_Bites\u0026Bytes - Copy\\Tiani.P_Bites\u0026Bytes\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Y2S2\\Software Development - Data Structures\\Tiani.P_Bites\u0026Bytes - Copy\\Tiani.P_Bites\u0026Bytes\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T07:34:34.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

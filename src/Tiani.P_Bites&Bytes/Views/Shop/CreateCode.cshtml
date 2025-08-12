@@ -1,0 +1,67 @@
+﻿@model Tiani.P_Bites_Bytes.Models.ViewModels.SpecialOfferCodeViewModel
+
+@{
+    ViewBag.Title = "Create Special Offer Code";
+}
+
+<h2>Create Special Offer Code</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.OfferCode, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.OfferCode, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.OfferCode, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ValidityDate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ValidityDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ValidityDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PercentOff, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.PercentOff, new SelectList(new[]
+                {
+                    new { Value = 5, Text = "5% off" },
+                    new { Value = 10, Text = "10% off" },
+                    new { Value = 15, Text = "15% off" }
+                }, "Value", "Text"), "Select Percentage", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.PercentOff, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SelectedCustomers, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @foreach (var customer in Model.Customers)
+                {
+                    <div class="checkbox">
+                        <label>
+                            @Html.CheckBox("SelectedCustomers", new { value = customer.Value }) @customer.Text
+                        </label>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

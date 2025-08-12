@@ -1,0 +1,115 @@
+﻿@model IEnumerable<Tiani.P_Bites_Bytes.Models.User>
+@{
+    ViewBag.Title = "ViewAllStaff";
+}
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find users by Username : @Html.TextBox("SearchString")
+
+        <input type="submit" value="Search" />
+    </p>
+
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+
+<h2>View All Staff</h2>
+
+<p>
+    @Html.ActionLink("Create New User", "CreateStaff")
+</p>
+<h3>Managers : </h3>
+
+
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(managers => managers.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(managers => managers.Firstname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(managers => managers.Lastname)
+        </th>
+    </tr>
+
+    @foreach (var managers in ViewBag.Managers)
+    {
+        <tr>
+
+            <td>
+                @managers.Email
+            </td>
+
+            <td>
+                @managers.Firstname
+            </td>
+            <td>
+                @managers.Lastname
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "EditStaff", new { id = managers.Id })|
+                @Html.ActionLink("Change Role", "ChangeRole", new { id = managers.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = managers.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = managers.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+<br />
+
+
+<h3>Sales Assistant : </h3>
+
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(salesAssistants => salesAssistants.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(salesAssistants => salesAssistants.Firstname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(salesAssistants => salesAssistants.Lastname)
+        </th>
+    </tr>
+
+    @foreach (var salesAssistants in ViewBag.SalesAssistants)
+    {
+        <tr>
+
+            <td>
+                @salesAssistants.Email
+            </td>
+
+            <td>
+                @salesAssistants.Firstname
+            </td>
+            <td>
+                @salesAssistants.Lastname
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "EditStaff", new { id = salesAssistants.Id }) |
+                @Html.ActionLink("Change Role", "ChangeRole", new { id = salesAssistants.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = salesAssistants.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = salesAssistants.Id })
+            </td>
+        </tr>
+    }
+
+</table>

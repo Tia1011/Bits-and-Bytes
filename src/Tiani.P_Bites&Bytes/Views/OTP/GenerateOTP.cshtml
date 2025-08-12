@@ -1,0 +1,15 @@
+﻿@model Tiani.P_Bites_Bytes.Models.Customer
+
+@{
+    ViewBag.Title = "Generate OTP";
+}
+
+<h2>Generate OTP</h2>
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label" })
+        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <button type="submit" class="btn btn-primary">Generate OTP</button>
+}

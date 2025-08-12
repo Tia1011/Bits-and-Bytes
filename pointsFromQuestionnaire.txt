@@ -1,0 +1,57 @@
+-design a suitable logo
+-select a colour scheme
+-colour schemes should be used consistently
+-avoid letting the user make unnecessary click through options
+
+staff roles
+sales assistant
+manager
+
+Sales Assistant (access to view customer records, view all orders,  make orders for a customer, register a customers details (customers do not login – they are just listed in the same way stock is listed) , view stock, update stock)
+Manager all functionality of Sales Assistant plus:
+Adding new stock for sale
+
+These next features are a “nice to have” rather than essential priority:
+Manager should also be able to create new staff users and edit existing 
+(i.e. change details and / or role).
+Manager can access / run any reports if functionality is present for these
+
+Staff should be allowed to edit a customer’s details on their behalf.  
+
+-no stock ordering system
+however When stock arrives we do need staff to have the ability to update 
+stock counts for these products.
+
+– it would also be nice to see some kind of multi-factor authentication.
+       Something like an SMS or Email to double authenticate login is industry standard.
+We have provided a sample order form for assistance
+In addition, we expect you to utilise common sense / common development approaches.  We are open to solutions.
+In terms of stock we expect a minimum of:
+ProductID, product name, category, price, stock level and any other relevant (image if possible)
+Customer: Email + standard user attributes
+Staff: StaffID, password + standard user attributes + role, salary, dateHired
+
+Order: OrderId, CustomerEmail, Order Date, Order Total + any other relevant
+OrderLines should also be stored with standard attributes
+
+These are mainly references to how our old (inefficient) system operated.
+In the new application - Customers should automatically be enrolled as “members” when making a purchase if they haven’t already been registered.  For security – all customers who shop at Big Vision must be registered.  We do not allow anonymous purchases.
+
+Customers will have an email address (unique) and a membership Id (also unique).    Please treat references of Customer Id and Membership ID as one and the same
+
+However we would like managers to be able to run reports if possible.  The formats we would accept are PDF, Excel, word, Any other valid.  Your choice.
+
+Reports we would like are:
+
+All orders for a day
+All stock that has less than 20 stock count
+All orders for a customer
+
+
+The minimum we require is a “simulated” payment system during the initial release of the software - where a form is displayed when a user selects to make their payment which provides the opportunity to input bank card, expiry, account name and ccv number in order to make the order as paid.
+
+Ideally, if possible, we would prefer the system to link into one of the many payment gateway options out there such as Stripe, Paypal or any other relevant vendor
+But if there are issues with this then please make sure the minimum is achieved
+
+
+

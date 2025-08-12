@@ -1,0 +1,713 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\databaseinitialiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\databaseinitialiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|c:\\users\\tiani\\onedrive\\desktop\\college\\graded unit\\gradedunitbackup\\tiani.p_bites\u0026bytes - current\\tiani.p_bites\u0026bytes\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\shop\\basket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\shop\\basket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\customer\\viewallcustomers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\customer\\viewallcustomers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\shop\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\shop\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\viewmodels\\editproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\viewmodels\\editproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\customer\\editcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\customer\\editcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\shop\\viewallcodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\shop\\viewallcodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\viewmodels\\specialoffercodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\viewmodels\\specialoffercodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\customer\\customerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\customer\\customerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\specialoffercode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\specialoffercode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\viewmodels\\createstaffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\viewmodels\\createstaffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\shop\\createcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\shop\\createcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\discountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\discountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\payment\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\payment\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\paymentcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\paymentcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\viewmodels\\basketviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\viewmodels\\basketviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\customer\\registercustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\customer\\registercustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\viewmodels\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\viewmodels\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\shared\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\shared\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\cardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\cardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\viewmodels\\editstaffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\viewmodels\\editstaffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\viewmodels\\deleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\models\\viewmodels\\deleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C61DE00D-A0B6-4BF9-AF28-9B87E2E43D84}|Tiani.P_Bites\u0026Bytes\\Tiani.P_Bites\u0026Bytes.csproj|solutionrelative:tiani.p_bites\u0026bytes\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiani\\source\\repos\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\views\\payment\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiani\\source\\repos\\Tiani.P_Bites\u0026Bytes - Current\\tiani.p_bites\u0026bytes\\models\\computersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T00:58:34.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseInitialiser.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\DatabaseInitialiser.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\DatabaseInitialiser.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\DatabaseInitialiser.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\DatabaseInitialiser.cs",
+              "ViewState": "AQIAAJsBAAAAAAAAAAAAAGMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T11:02:59.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Controllers\\ShopController.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAjwMcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T09:10:28.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Success.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Success.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Success.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T10:47:23.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwCUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T00:21:33.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Web.config",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Web.config",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Web.config",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAACWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-18T10:34:12.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewAllCustomers.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Customer\\ViewAllCustomers.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Customer\\ViewAllCustomers.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Customer\\ViewAllCustomers.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Customer\\ViewAllCustomers.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T23:07:33.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAYwIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:30:42.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Web.config",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Web.config",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAawAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-18T10:33:59.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Basket.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shop\\Basket.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Shop\\Basket.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shop\\Basket.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Shop\\Basket.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T15:17:29.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shop\\Products.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Shop\\Products.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shop\\Products.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Shop\\Products.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAB8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T23:08:37.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\EditProductViewModel.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\EditProductViewModel.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\EditProductViewModel.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\EditProductViewModel.cs",
+              "ViewState": "AQIAAAgAAABgHMcUBU04wBcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:50:30.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAcwFAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T21:03:31.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T23:57:33.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Controllers\\ManageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T23:57:53.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Customer\\EditCustomer.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Customer\\EditCustomer.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Customer\\EditCustomer.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Customer\\EditCustomer.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAE8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T22:54:34.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ViewAllCodes.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shop\\ViewAllCodes.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Shop\\ViewAllCodes.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shop\\ViewAllCodes.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Shop\\ViewAllCodes.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T21:42:43.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:26:03.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SpecialOfferCodeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\SpecialOfferCodeViewModel.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\SpecialOfferCodeViewModel.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\SpecialOfferCodeViewModel.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\SpecialOfferCodeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:16:57.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Customer\\CustomerLogin.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Customer\\CustomerLogin.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Customer\\CustomerLogin.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Customer\\CustomerLogin.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T20:29:37.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SpecialOfferCode.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\SpecialOfferCode.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\SpecialOfferCode.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\SpecialOfferCode.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\SpecialOfferCode.cs",
+              "ViewState": "AQIAAAIAAABM1K6rPugqwBEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:40:55.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DiscountStatus.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\DiscountStatus.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\DiscountStatus.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\DiscountStatus.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\DiscountStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:30:45.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateStaffViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\CreateStaffViewModel.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\CreateStaffViewModel.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\CreateStaffViewModel.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\CreateStaffViewModel.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAADwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:53:30.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shop\\CreateCode.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Shop\\CreateCode.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shop\\CreateCode.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Shop\\CreateCode.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T20:28:17.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Checkout.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T15:22:37.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\source\\repos\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Error.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\source\\repos\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Error.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\source\\repos\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Error.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\source\\repos\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Payment\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T20:03:56.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ComputerSystem.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\source\\repos\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ComputerSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\source\\repos\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ComputerSystem.cs",
+              "ToolTip": "C:\\Users\\tiani\\source\\repos\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ComputerSystem.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\source\\repos\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ComputerSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T22:00:18.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PaymentCard.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\PaymentCard.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\PaymentCard.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\PaymentCard.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\PaymentCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T15:15:01.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\CustomerViewModel.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\CustomerViewModel.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\CustomerViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T07:04:37.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BasketViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\BasketViewModel.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\BasketViewModel.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\BasketViewModel.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\BasketViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:43:13.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\User.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\User.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAswFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T09:06:59.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegisterCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Customer\\RegisterCustomer.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Customer\\RegisterCustomer.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Customer\\RegisterCustomer.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Customer\\RegisterCustomer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T20:43:46.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T12:09:02.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T22:35:09.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\AccountViewModels.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\AccountViewModels.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T07:55:47.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Startup.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Startup.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Startup.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T09:35:12.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T22:59:38.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Lockout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shared\\Lockout.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Shared\\Lockout.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Shared\\Lockout.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Shared\\Lockout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T22:59:36.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Content\\Site.css",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Content\\Site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-29T12:58:55.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CardType.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\CardType.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\CardType.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\CardType.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\CardType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:35:45.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EditStaffViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\EditStaffViewModel.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\EditStaffViewModel.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\EditStaffViewModel.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\EditStaffViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T21:58:27.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeleteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\DeleteViewModel.cs",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\DeleteViewModel.cs",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\DeleteViewModel.cs",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Models\\ViewModels\\DeleteViewModel.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T09:11:18.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Tiani.P_Bites\u0026Bytes\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\tiani\\OneDrive\\Desktop\\College\\Graded Unit\\GradedUnitBackUp\\Tiani.P_Bites\u0026Bytes - Current\\Tiani.P_Bites\u0026Bytes\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Tiani.P_Bites\u0026Bytes\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T10:24:25.717Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

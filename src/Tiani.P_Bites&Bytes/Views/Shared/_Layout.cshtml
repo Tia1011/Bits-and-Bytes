@@ -1,0 +1,115 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Bits And Bytes</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .wrapper {
+            display: flex;
+            height: 100vh;
+        }
+
+        #sidebar {
+            width: 250px;
+            background-color: #343a40;
+            padding-top: 20px;
+            color: white;
+            transition: width 0.3s ease;
+        }
+
+            #sidebar .list-group-item {
+                background-color: transparent;
+                color: white;
+                border: none;
+            }
+
+        #content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .wrapper {
+            display: flex;
+            flex: 1;
+        }
+
+        #sidebarCollapse {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 1.5rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav id="sidebar">
+        <div class="list-group">
+            @Html.Partial("_LoginPartial")
+            @if (Request.IsAuthenticated)
+            {
+
+                @Html.ActionLink("Bits & Bytes", "Index", "Home", new { area = "" }, new { @class = "list-group-item list-group-item-action" })
+                @Html.ActionLink("Start New Order", "CustomerLogin", "Customer", new { area = "" }, new { @class = "list-group-item list-group-item-action" })
+                @Html.ActionLink("Current Order", "Products", "Shop", new { area = "" }, new { @class = "list-group-item list-group-item-action" })
+
+                @Html.ActionLink("Register Customer", "RegisterCustomer", "Customer", new { area = "" }, new { @class = "list-group-item list-group-item-action" })
+                @Html.ActionLink("Voucher Codes", "ViewAllCodes", "Shop", new { area = "" }, new { @class = "list-group-item list-group-item-action" })
+                @Html.ActionLink("View Customers", "ViewAllCustomers", "Customer", new { area = "" }, new { @class = "list-group-item list-group-item-action" })
+                @Html.ActionLink("View Products", "ViewAllProducts", "Manager", new { area = "" }, new { @class = "list-group-item list-group-item-action" })
+
+
+
+                //if manager is logged in, display the links available to admin
+                if (User.IsInRole("Manager"))
+                {
+                    @Html.ActionLink("View Reports", "ViewReports", "Manager", new { area = "" }, new { @class = "list-group-item list-group-item-action" })
+                    @Html.ActionLink("View Staff", "ViewAllStaff", "Manager", new { area = "" }, new { @class = "list-group-item list-group-item-action" })
+
+
+                }
+            }
+        </div>
+    </nav>
+
+    <div id="content">
+
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Bits & Bytes</p>
+            </footer>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script>
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('collapsed');
+            });
+        });
+    </script>
+</body>
+</html>

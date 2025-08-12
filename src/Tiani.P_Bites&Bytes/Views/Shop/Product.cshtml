@@ -1,0 +1,145 @@
+﻿@model Tiani.P_Bites_Bytes.Models.Product
+@{
+    ViewBag.Title = "Product";
+}
+
+<div>
+    @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+    {
+        <div class="alert alert-danger" role="alert">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+</div>
+
+
+<div class="row">
+    <div class="col-lg-3">
+        <h2 class="my-4">Shop by Category</h2>
+        <div class="list-group">
+            @foreach (var item in ViewBag.Categories)
+            {
+                <a href="@Url.Action("Products", "Shop", new { id = item.CategoryId })" class="list-group-item">@item.Name</a>
+            }
+        </div>
+    </div>
+
+
+    <div class="col-lg-9 center-block">
+        <a href="@Url.Action("Product", "Shop", new { id = Model.ProductId })">
+            <img class="img-fluid img-responsive" style="max-height:350px" src="@Model.ImageUrl" alt="" />
+        </a>
+
+
+        <div class="card-body">
+            <h3 class="card-title">@Html.DisplayFor(model => model.ProductName)</h3>
+
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayFor(model => model.Price)
+                </dt>
+                <dd>@Html.DisplayFor(model => model.Price)</dd>
+                <dt>
+                    @Html.DisplayFor(model => model.Category)
+
+                </dt>
+                <dd>@Html.DisplayFor(model => model.Category)</dd>
+                <dt>
+                    @Html.DisplayFor(model => model.Description)
+                </dt>
+                <dd>@Html.DisplayFor(model => model.Description)</dd>
+
+            </dl>
+
+            <div class="card-footer">
+                <small class="text-muted">
+                    @if (Model.StockLevel < 1)
+                    {
+
+
+                        <mark>OUT OF STOCK</mark>
+                    }
+                    else
+                    {
+
+                        <mark>AVAILABLE</mark>
+                    }
+                </small>
+            </div>
+
+        </div>
+        <br />
+        <br />
+        <div>
+            @if (Model.StockLevel > 0 && ViewBag.Email != null)
+            {
+
+                <form action="@Url.Action("AddToBasket", "Shop")" method="post">
+                    <div class="quantity-input">
+                        <button class="minus-btn" type="button" name="button">-</button>
+                        <input type="text" name="quantity" value="1">
+                        <button class="plus-btn" type="button" name="button">+</button>
+                    </div>
+                    <input type="hidden" name="id" value="@Model.ProductId">
+                    <input type="submit" value="Add To Basket" class="btn btn-lg btn-success">
+                </form>
+
+                @Html.ActionLink("Continue Shopping", "Products", "Shop", new { @class = "btn btn-lg btn-success" });
+
+            }
+            else
+            {
+
+                @Html.ActionLink("Back", "Products", "Shop", new { @class = "btn btn-lg btn-success" });
+
+            }
+
+
+
+        </div>
+
+
+    </div>
+</div>
+<style>
+    .quantity-input {
+        display: flex;
+        align-items: center;
+    }
+
+        .quantity-input input {
+            width: 50px;
+            text-align: center;
+        }
+
+        .quantity-input button {
+            background-color: #f0f0f0;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+            .quantity-input button:hover {
+                background-color: #e0e0e0;
+            }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var minusButton = document.querySelector(".minus-btn");
+        var plusButton = document.querySelector(".plus-btn");
+        var quantityInput = document.querySelector("input[name='quantity']");
+
+        minusButton.addEventListener("click", function () {
+            var currentValue = parseInt(quantityInput.value);
+            if (currentValue > 1) {
+                quantityInput.value = currentValue - 1;
+            }
+        });
+
+        plusButton.addEventListener("click", function () {
+            var currentValue = parseInt(quantityInput.value);
+            quantityInput.value = currentValue + 1;
+        });
+    });
+</script>

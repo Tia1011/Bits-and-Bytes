@@ -1,0 +1,20 @@
+﻿@model Tiani.P_Bites_Bytes.Models.Customer
+
+@{
+    ViewBag.Title = "Verify OTP";
+}
+
+<h2>Verify OTP</h2>
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.Label("OTP Sent to " + Model.Email)
+        @Html.HiddenFor(model => model.Email)
+        <input type="text" name="OTP" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Verify OTP</button>
+    @if (ViewBag.Error != null)
+    {
+        <div class="text-danger">@ViewBag.Error</div>
+    }
+}

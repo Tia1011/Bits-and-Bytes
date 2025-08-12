@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Payment Cancelled";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .message {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1>Payment Cancelled</h1>
+        <p>Your payment has been cancelled. You can try again or continue shopping.</p>
+        @Html.ActionLink("Continue Shopping", "Products", "Shop", new { @class = "btn btn-lg btn-success" })
+    </div>
+</body>
+</html>

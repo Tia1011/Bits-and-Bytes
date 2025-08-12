@@ -1,0 +1,121 @@
+﻿@model IEnumerable<Tiani.P_Bites_Bytes.Models.Product>
+@{
+    ViewBag.Title = "ViewAllProducts";
+}
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find users by Username : @Html.TextBox("SearchString")
+
+        <input type="submit" value="Search" />
+    </p>
+
+    if (User.IsInRole("Manager"))
+    {
+    <p>
+        @Html.ActionLink("Create New Product", "CreateProduct")
+    </p>
+    }
+
+    <h3>Computer Parts : </h3>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(computerParts => computerParts.ProductId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(computerParts => computerParts.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(computerParts => computerParts.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(computerParts => computerParts.StockLevel)
+            </th>
+           
+        </tr>
+
+        @foreach (var computerParts in ViewBag.ComputerParts)
+        {
+            <tr>
+                <td>
+                    @computerParts.ProductId
+                </td>
+                <td>
+                    @computerParts.ProductName
+                </td>
+                <td>
+                    @computerParts.Price
+                </td>
+                <td>
+                    @computerParts.StockLevel
+                </td>
+
+                @if (User.IsInRole("Manager"))
+                {
+                    <td>
+                        @Html.ActionLink("Edit", "EditProduct", new { id = computerParts.ProductId }) |
+                        @Html.ActionLink("Details", "ProductDetails", new { id = computerParts.ProductId }) |
+                        @Html.ActionLink("Delete", "DeleteProduct", new { id = computerParts.ProductId })
+                    </td>
+                }
+                else
+                {
+            <td>
+                @Html.ActionLink("Update Stock Level", "UpdateStockLevel", new { id = computerParts.ProductId }, null)
+
+                        @Html.ActionLink("Details", "ProductDetails", new { id = computerParts.ProductId })
+                    </td>
+                }
+            </tr>
+        }
+
+    </table>
+    <br>
+
+    <h3>Computer Systems : </h3>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(computerSystems => computerSystems.ProductId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(computerSystems => computerSystems.ProductName)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(computerSystems => computerSystems.Price)
+            </th>
+          
+            <th>
+                @Html.DisplayNameFor(computerSystems => computerSystems.StockLevel)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var computerSystems in ViewBag.ComputerSystems)
+        {
+            <tr>
+                <td>
+                    @computerSystems.ProductId
+                </td>
+                <td>
+                    @computerSystems.ProductName
+                </td>
+                <td>
+                    @computerSystems.Price
+                </td>
+                <td>
+                    @computerSystems.StockLevel
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditProduct", new { id = computerSystems.ProductId }) |
+                    @Html.ActionLink("Details", "ProductDetails", new { id = computerSystems.ProductId }) |
+                    @Html.ActionLink("Delete", "DeleteProduct", new { id = computerSystems.ProductId })
+                </td>
+            </tr>
+        }
+
+    </table>
+}

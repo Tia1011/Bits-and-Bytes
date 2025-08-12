@@ -1,0 +1,66 @@
+﻿@model Tiani.P_Bites_Bytes.Models.Product
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StockLevel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StockLevel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+
+        <dd><img src="@Url.Content(Model.ImageUrl)" alt="@Model.ProductName" style="max-width: 200px;" /></dd>
+    
+
+    <dt>
+        @Html.DisplayNameFor(model => model.StockUpdatedOn)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.StockUpdatedOn)
+    </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "ViewAllProducts")
+</p>

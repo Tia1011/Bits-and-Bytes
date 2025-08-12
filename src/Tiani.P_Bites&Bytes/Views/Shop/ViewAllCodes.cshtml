@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Tiani.P_Bites_Bytes.Models.SpecialOfferCode>
+
+@{
+    ViewBag.Title = "View All Voucher Codes";
+}
+
+<h2>View All Voucher Codes</h2>
+@if (User.IsInRole("Manager"))
+{
+
+    <p>
+        @Html.ActionLink("Create New Code", "CreateCode")
+    </p>
+}
+
+    <table class="table">
+        <tr>
+
+            <th>@Html.DisplayNameFor(model => model.OfferCode)</th>
+            <th>@Html.DisplayNameFor(model => model.OfferUsed)</th>
+            <th>@Html.DisplayNameFor(model => model.OfferInValid)</th>
+            <th>@Html.DisplayNameFor(model => model.PercentOff)</th>
+            <th>@Html.DisplayNameFor(model => model.ValidityDate)</th>
+            <th>@Html.DisplayNameFor(model => model.CustomerEmail)</th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.OfferCode)</td>
+                <td>@Html.DisplayFor(modelItem => item.OfferUsed)</td>
+                <td>@Html.DisplayFor(modelItem => item.OfferInValid)</td>
+                <td>@Html.DisplayFor(modelItem => item.PercentOff)</td>
+                <td>@Html.DisplayFor(modelItem => item.ValidityDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.CustomerEmail)</td>
+                @if (User.IsInRole("Manager"))
+                {
+                    <td>
+                        @Html.ActionLink("🗑️", "DeleteCode", new { id = item.OfferId })
+                    </td>
+                }
+                </tr>
+        }
+    </table>
+

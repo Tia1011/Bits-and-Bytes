@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Payment Successful";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .message {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1>Payment Successful!</h1>
+        <p>Thank you for your purchase. Your payment has been processed successfully.</p>
+        @Html.ActionLink("Continue Shopping", "Products", "Shop", new { @class = "btn btn-lg btn-success" })
+    </div>
+</body>
+</html>

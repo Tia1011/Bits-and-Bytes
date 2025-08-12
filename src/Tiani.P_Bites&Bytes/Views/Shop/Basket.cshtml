@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://js.stripe.com/v3/"></script>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .total {
+            font-weight: bold;
+        }
+
+        .right-button {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="order-info">
+        <h2>Order Information</h2>
+        <p><strong>Customer Email:</strong> @Model.EmailAddress</p>
+        <p><strong>User ID:</strong> @Model.UserId</p>
+        <p><strong>Order ID:</strong> @Model.OrderId</p>
+    </div>
+    <div>
+        @if (ViewBag.OrderItems != null)
+        {
+            <button id="checkout-button" class="btn btn-lg btn-success right-button">Continue To Payment</button>
+        }
+        <h2>Your Shopping Cart</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Product Id</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Line Total</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                @foreach (var item in ViewBag.OrderItems)
+                {
+                    <tr id="product-@item.ProductId">
+                        <td><button onclick="removeItem('@item.ProductId')">X</button></td>
+                        <td>@item.ProductId</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price</td>
+                        <td>@item.LineTotal</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div>
+            <input type="text" id="voucherCode" placeholder="Enter voucher code" />
+            <button onclick="applyVoucher()">Apply</button>
+        </div>
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        @{
+            var vatAmount = Model.OrderTotal * 0.2;
+            var totalWithVAT = Model.OrderTotal + vatAmount;
+        }
+        <div class="total-container">
+            <span class="total">Subtotal:</span>
+            <span class="total-value">@Math.Max(Model.OrderTotal, 0)</span>
+            <span class="total"> (Discounts Applied:</span>
+            <span class="total-value discount-value">@Math.Max(ViewBag.DiscountValue, 0)</span>
+            <span class="total"> )</span>
+        </div>
+        @if (!string.IsNullOrEmpty(ViewBag.AppliedVoucherCode))
+        {
+            <div class="alert alert-info" role="alert">
+                Voucher code "@ViewBag.AppliedVoucherCode" applied.
+                <button class="btn btn-sm btn-danger" onclick="removeVoucher()">Remove Voucher</button>
+            </div>
+        }
+
+        <div class="total-container">
+            <span class="total">VAT Charge (20%):</span>
+            <span class="total-value">@Math.Max(vatAmount, 0)</span>
+        </div>
+
+        <div class="total-container">
+            <span class="total">Total (including VAT):</span>
+            <span class="total-value">@Math.Max(totalWithVAT, 0)</span>
+        </div>
+
+        @Html.ActionLink("Continue Shopping", "Products", "Shop", new { @class = "btn btn-lg btn-success" })
+
+    <script>
+
+            var stripe = Stripe('@ViewBag.StripePublishableKey');
+
+            function removeItem(productId) {
+                var orderId = @Model.OrderId;
+                $.ajax({
+                    url: '@Url.Action("RemoveFromBasket", "Shop")',
+                    type: 'POST',
+                    data: { productId: productId, orderId: orderId },
+                    success: function () {
+                        location.reload();
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(xhr.responseText);
+                    }
+                });
+            }
+
+            function applyVoucher() {
+                var voucherCode = document.getElementById('voucherCode').value;
+                var customerEmail = '@Model.EmailAddress';
+                $.ajax({
+                    url: '@Url.Action("ApplyVoucherCode", "Shop")',
+                    type: 'POST',
+                    data: { customerEmail: customerEmail, voucherCode: voucherCode },
+                    success: function (response) {
+                        if (response.success) {
+                            $('.total-value').text(response.orderTotal);
+                            $('.discount-value').text(response.discountAmount.toFixed(2));
+                            location.reload();
+                        } else {
+                            console.error(response.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(xhr.responseText);
+                    }
+                });
+            }
+
+            function removeVoucher() {
+                var customerEmail = '@Model.EmailAddress';
+                $.ajax({
+                    url: '@Url.Action("RemoveVoucherCode", "Shop")',
+                    type: 'POST',
+                    data: { customerEmail: customerEmail },
+                    success: function (response) {
+                        if (response.success) {
+                            location.reload();
+                        } else {
+                            console.error(response.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(xhr.responseText);
+                    }
+                });
+            }
+
+            document.getElementById('checkout-button').addEventListener('click', function () {
+                var orderId = @Model.OrderId;
+                var url = '@Url.Action("CreateCheckoutSession", "Payment", new { orderId = "__orderId__" })'.replace('__orderId__', orderId);
+                fetch(url, {
+                    method: 'POST'
+                }).then(function (response) {
+                    return response.json();
+                }).then(function (session) {
+                    return stripe.redirectToCheckout({ sessionId: session.sessionId });
+                }).then(function (result) {
+                    if (result.error) {
+                        alert(result.error.message);
+                    }
+                }).catch(function (error) {
+                    console.error('Error:', error);
+                });
+            });
+    </script>
+    </div>
+</body>
+</html>

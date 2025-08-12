@@ -1,0 +1,44 @@
+﻿@* DeleteSpecialOfferCode.cshtml *@
+@model Tiani.P_Bites_Bytes.Models.SpecialOfferCode
+
+@{
+    ViewBag.Title = "Delete Voucher Code";
+}
+
+<h2>Delete Voucher Code</h2>
+
+<h3>Are you sure you want to delete this voucher code?</h3>
+<div>
+    <h4>SpecialOfferCode</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(model => model.OfferId)</dt>
+        <dd>@Html.DisplayFor(model => model.OfferId)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.OfferCode)</dt>
+        <dd>@Html.DisplayFor(model => model.OfferCode)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.OfferUsed)</dt>
+        <dd>@Html.DisplayFor(model => model.OfferUsed)</dd>
+
+
+        <dt>@Html.DisplayNameFor(model => model.ValidityDate)</dt>
+        <dd>@Html.DisplayFor(model => model.ValidityDate)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.PercentOff)</dt>
+        <dd>@Html.DisplayFor(model => model.PercentOff)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Customers)</dt>
+        <dd>@Html.DisplayFor(model => model.Customers)</dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "ViewAllCodes")
+        </div>
+    }
+</div>

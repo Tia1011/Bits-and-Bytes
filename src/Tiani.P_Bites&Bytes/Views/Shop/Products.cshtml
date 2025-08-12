@@ -1,0 +1,102 @@
+﻿@model IEnumerable<Tiani.P_Bites_Bytes.Models.Product>
+@using Tiani.P_Bites_Bytes.Models.ViewModels
+@{
+    ViewBag.Title = "Products";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+@if (!string.IsNullOrEmpty(ViewBag.CustomerEmail))
+{
+    <div class="row">
+        <div class="col-md-6 text-left">
+            <a href="@Url.Action("Basket", "Shop", new { OrderId = ViewBag.OrderId })" class="btn btn-primary">
+                <i class="fas fa-shopping-basket"></i> View Basket
+            </a>
+        </div>
+        <div style="display: flex; justify-content: flex-end;">
+            <a href="@Url.Action("CustomerDetails", "Customer", new { email = ViewBag.CustomerEmail })" class="btn btn-primary">
+                <i class="fas fa-user"></i> Customer Details
+            </a>
+        </div>
+        <br />
+        <br />
+        <div style="display: flex; justify-content: flex-end;">
+            <a href="@Url.Action("CustomerLogOff", "Customer")" class="btn btn-primary">
+                <i class="fas fa-user"></i> Customer Log Off
+            </a>
+        </div>
+    </div>
+}
+else
+{
+    <div class="text-right">
+        <a href="@Url.Action("CustomerLogin", "Customer")" class="btn btn-primary">
+            <i class="fas fa-user"></i> Customer Not Logged In
+        </a>
+    </div>
+}
+
+
+<div class="row">
+    <div class="col-lg-3">
+        <h2 class="my-4">Shop by Category</h2>
+        <div class="list-group">
+            @foreach (var item in ViewBag.Categories)
+            {
+                <a href="@Url.Action("Products","Shop", new {id = item.CategoryId})" class="list-group-item">@item.Name</a>
+            }
+        </div>
+    </div>
+
+    <div class="col-lg-9">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-sm-4 col-lg-4 col-mb-4">
+                    <div class="card">
+                        <a href="@Url.Action("Product", "Shop", new {id=item.ProductId})">
+                            <img class=" card-body img-fluid img-responsive" src="@item.ImageUrl" alt="" />
+                        </a>
+
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="@Url.Action("Product", "Shop", new {id=item.ProductId})">@item.ProductName</a>
+                            </h4>
+                            <h5>£@item.Price</h5>
+                            <p class="card-text">@item.Category.Name</p>
+                        </div>
+
+
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                @if (item.StockLevel < 1)
+                                {
+
+
+                                    <mark>OUT OF STOCK</mark>
+                                }
+                                else
+                                {
+
+                                    <mark>AVAILABLE</mark>
+                                }
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+

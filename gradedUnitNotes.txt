@@ -1,0 +1,77 @@
+they already have staff and member details - they have a pre existing system
+
+sell computer components and computer systems
+they have a pre-existing system
+stores details of computer parts, computer systems, special offers
+produce a receipt and a price list from the database
+
+stock control system-
+- allow Different types of stock to be
+ 	+added
+ 	+deleted
+ 	+amended
+
+-•	record a new product; 
+
+sales control system
+- attend to customer orders
+- allow staff to look for product details
+•	register a new customer;
+-produce reciepts
+ reciept info
+Customer Name, Item Name, Price, Vat, Date and Assistants Name
+•	view details of orders placed by a customer.
+
+member's control system 
+- store members details
+-store discount status
+
+
+can become a bits and bytes member
+gives a membership form
+they recieve a membership id thru post
+details go to the log book
+
+CUSTOMER INFORMTAION
+•	Their customer number (unique to each individual); 
+•	Membership ID; 
+•	name; 
+•	address
+•	telephone number.
+
+
+PRODUCT INFORMTAION
+•	A description of the product (each product has a unique description); 
+•	the price of the product; and 
+•	the stock level of the product.
+
+
+
+when a member shops, their id is entered
+and a bonus will be given if they shop a certain amount of times
+o	30 times they gain a 5% discount voucher
+o	60 times they gain a 10% discount voucher
+o	90 times they gain Vat Free (VAT is 20%)
+o	These bonuses are permanent and will not be removed from the member
+
+
+USER ROLES
+store manager who is responsible for updating and controlling stock
+
+day-shift assistant
+-assisting customers that purchase products
+-finding stock details
+-writing out receipts
+-creating new members
+-updating members
+
+back-shift assistant 
+SAME AS DAY SHIT
+
+customers
+
+member
+
+user in control of stock system get messages when stock is low
+
+
